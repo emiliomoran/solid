@@ -26,7 +26,7 @@ public class ManejadorAtaque {
                 this.pokemon.setPorcentajeVida(this.pokemon.getPorcentajeVida()*0.80);
             case ATAQUE_PLANTA:
                 this.pokemon.setPorcentajeVida(this.pokemon.getPorcentajeVida()*0.60);
-               
+          
             /*Cuando queremos agregar otro ataque (ej: ATAQUE_ROCA), tenemos que cambiar dos clases
               ManejadorAtaque y Ataque y esto viola el Principio Open Close
             */
